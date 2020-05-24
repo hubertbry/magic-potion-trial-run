@@ -1,0 +1,72 @@
+body {
+  font-family: 'Gentium Book Basic', serif;
+  background-color: #e6d6b5;
+}
+
+h1 {
+  font-family: 'MedievalSharp', cursive;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #495679
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+input, select, button, textarea {
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  max-width: 100%;
+  background-color: #f5f2ec;
+  box-shadow: none;
+}
+
+input:hover, select:hover, button:hover, textarea:hover {
+  background-color: #e2ded4;
+}
+
+input[type="number"] {
+  min-width: 100px;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#main {
+  width: 700px;
+  margin: auto;
+}
+
+#content {
+  font-size: 1.2em;
+}
+
+#description {
+  text-align: justify;
+  line-height: 1.4em
+}
+
+.credits {
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  #main {
+    width: 90%;
+    padding: 5%;
+  }
+}
