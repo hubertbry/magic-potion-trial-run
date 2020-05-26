@@ -60,6 +60,10 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   line-height: 1.4em
 }
 
+#survey-form > p {
+  margin: 0.1em;
+}
+
 .credits {
   text-align: center;
 }
